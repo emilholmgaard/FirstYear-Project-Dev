@@ -1,0 +1,52 @@
+.bg-image-vertical {
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+    background-color: #0a0a0a;
+}
+
+@media (min-width: 1025px) {
+    .h-custom-2 {
+        height: 100%;
+    }
+}
+
+body {
+    background-color: #0a0a0a;
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+.form-control {
+    border: 1px solid #000000;
+    background-color: #1c1c1c;
+    color: white;
+}
+
+.form-control::placeholder {
+    color: #d1d1d1;
+}
+
+.btn-info {
+    background-color: #002fa7;
+    border-color: #000;
+    color: white;
+}
+
+.btn-info:hover {
+    background-color: #002285;
+    border-color: #000;
+}
+
+a {
+    color: #002fa7;
+}
+
+a:hover {
+    color: #002285;
+}
